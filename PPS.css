@@ -33,3 +33,21 @@ nav {
 #link{
     text-align: center;
 }
+
+input:not(:checked)~label{
+    text-align: center;
+    font-weight: bold;
+}
+
+input~label{ 
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+}
+input:checked~table{
+    display: none;
+}
+input{
+    display: none;
+}
