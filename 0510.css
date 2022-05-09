@@ -1,0 +1,123 @@
+.box1{
+    width: 100px;
+    height: 400px;
+    background-color: rgb(210, 214, 214);
+    flex: 1;
+    margin: 0.5%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition:all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition:all 0.5s ease-in-out 0s ;
+}
+.box1:hover{
+    
+    background-color: rgb(163, 142, 226);
+
+    transform:translate(30px,-20px);
+    font-size:120%;
+}
+
+  
+
+.box2{
+    width: 100px;
+    height: 400px;
+    background-color: rgba(206, 200, 126, 0.801);
+    flex: 1;
+    margin: 0.5%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition:all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition:all 0.5s ease-in-out 0s ;
+}
+.box2:hover{
+    width: 100px;
+    height: 400px;
+    background-color: rgba(231, 85, 40, 0.801);
+    flex: 1;
+    margin: 0.5%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(50deg);
+    
+}
+.box3{
+    width: 100px;
+    height: 400px;
+    background-color: rgba(218, 86, 141, 0.753);
+    flex: 1;
+    margin: 0.5%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition:all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    transition:all 0.5s ease-in-out 0s ;
+}
+
+.box3:hover{
+    width: 100px;
+    height: 400px;
+    background-color: rgba(91, 168, 212, 0.753);
+    flex: 1;
+    margin: 0.5%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: scale(120%,120%);
+}
+.container{
+    display: flex;
+    align-items: center;
+    
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 48px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+/* Support for all WebKit browsers. */
+-webkit-font-smoothing: antialiased;
+/* Support for Safari and Chrome. */
+text-rendering: optimizeLegibility;
+
+/* Support for Firefox. */
+-moz-osx-font-smoothing: grayscale;
+
+/* Support for IE. */
+font-feature-settings: 'liga';
+}
